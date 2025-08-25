@@ -1,2 +1,46 @@
-# ai-redflag-checklist
-AI-Redflag-Checklist provides open prompts and templates for using AI to organize clinical information and highlight possible red flags, while keeping decision-making with humans.
+# AI-Redflag-Checklist
+
+**AI-Redflag-Checklist** is a public repository of **AI-assisted prompts and checklists** for recognizing clinical red flags in primary care and allied health settings.  
+The AI is used **only to structure and summarize information** — it does **not provide diagnoses**.  
+All final decisions remain with human clinicians.
+
+## Objectives
+- Support clinicians and allied health professionals in **organizing findings** related to red flags.  
+- Improve **communication with physicians** by producing structured outputs.  
+- Enable **safe AI-assisted documentation** without transferring diagnostic authority.  
+
+## Upcoming Prompts
+The first release will include:
+- Low Back Pain (12-item checklist, based on guidelines such as MINDS 2021, Chou et al. 2020)  
+- Headache (red flag checklist: thunderclap, meningitis, tumor, temporal arteritis, etc.)  
+- Dizziness (including anemia/bleeding-related red flags, posterior circulation issues)
+
+## Repository Structure
+- `prompt/` : Prompt templates (starting with low back pain, headache, dizziness)  
+- `templates/` : CSV data template, consent & disclosure form, minimal referral note  
+- `docs/` : SOP and workflow description  
+- `examples/` : Anonymized outputs (PDF/JSON) for transparency  
+- `LICENSE` : License text  
+
+## Ethics & Governance
+- AI acts as an **information-organizing assistant**, not as a diagnostic system.  
+- Human judgment is always required for referral decisions.  
+- Anonymized data and prompt/output PDFs can be shared via OSF for transparency.  
+
+## Citation
+If you use or adapt this repository, please cite:  
+**OSF project hub:** https://osf.io/tghr6/
+
+---
+
+## License
+This project is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format  
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially  
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.  
+
+Full license text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
