@@ -6,17 +6,19 @@ All final decisions remain with human clinicians.
 
 ## Objectives
 - Support clinicians and allied health professionals in **organizing findings** related to red flags.  
-- Improve **communication with physicians** by producing structured outputs.  
+- Improve communication with physicians by producing **structured outputs**.  
 - Enable **safe AI-assisted documentation** without transferring diagnostic authority.  
 
 ## Upcoming Prompts
 The first release will include:
-- Low Back Pain (12-item checklist, based on guidelines such as MINDS 2021, Chou et al. 2020)  
-- Headache (red flag checklist: thunderclap, meningitis, tumor, temporal arteritis, etc.)  
-- Dizziness (including anemia/bleeding-related red flags, posterior circulation issues)
+- **Low Back Pain** (12-item checklist, based on guidelines such as MINDS 2021, Chou et al. 2020)  
+- **Headache** (red flag checklist: thunderclap, meningitis, tumor, temporal arteritis, etc.)  
+- **Dizziness** (including anemia/bleeding-related red flags, posterior circulation issues)  
+- **Kampo (Traditional Japanese Medicine) Internal Medicine Referral**  
+  - Reasons for referral when red flags are excluded but multiple chronic symptoms, insufficient improvement with standard care, or patient preference for Kampo-based approaches are present.  
 
 ## Repository Structure
-- `prompt/` : Prompt templates (starting with low back pain, headache, dizziness)  
+- `prompt/` : Prompt templates (low back pain, headache, dizziness, Kampo referral)  
 - `templates/` : CSV data template, consent & disclosure form, minimal referral note  
 - `docs/` : SOP and workflow description  
 - `examples/` : Anonymized outputs (PDF/JSON) for transparency  
@@ -44,3 +46,4 @@ Under the following terms:
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.  
 
 Full license text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
