@@ -14,8 +14,8 @@ The first release will include:
 - **Low Back Pain** (12-item checklist, based on guidelines such as MINDS 2021, Chou et al. 2020)  
 - **Headache** (red flag checklist: thunderclap, meningitis, tumor, temporal arteritis, etc.)  
 - **Dizziness** (including anemia/bleeding-related red flags, posterior circulation issues)  
-- **Kampo (Traditional Japanese Medicine) Internal Medicine Referral**  
-  - Reasons for referral when red flags are excluded but multiple chronic symptoms, insufficient improvement with standard care, or patient preference for Kampo-based approaches are present.  
+- **Kampo (Traditional Medicine) Internal Medicine Referral**
+  Reasons for referral when red flags are excluded but multiple chronic symptoms, insufficient improvement with standard care, or patient preference for Kampo-based approaches are present.  
 
 ## Repository Structure
 - `prompt/` : Prompt templates (low back pain, headache, dizziness, Kampo referral)  
