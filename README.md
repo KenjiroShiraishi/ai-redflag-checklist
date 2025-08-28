@@ -18,7 +18,7 @@ The first release will include:
 - [Low Back Pain](https://github.com/KenjiroShiraishi/ai-redflag-checklist/blob/main/prompt/prompt/pmpt_low_back_pain_ja.md)  
   (12-item checklist, based on guidelines such as MINDS 2021, Chou et al. 2020)
 
-- [Headache](prompt/prompt_headache.md)  
+- [Headache](https://github.com/KenjiroShiraishi/ai-redflag-checklist/blob/main/prompt/prompt/prompt_headache.md)  
   (red flag checklist: thunderclap, meningitis, tumor, temporal arteritis, etc.)
 
 - [Dizziness](prompt/prompt_dizziness.md)  
