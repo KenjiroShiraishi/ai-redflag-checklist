@@ -4,10 +4,14 @@
 The AI is used **only to structure and summarize information** — it does **not provide diagnoses**.  
 All final decisions remain with human clinicians.
 
+---
+
 ## Objectives
 - Support clinicians and allied health professionals in **organizing findings** related to red flags.  
 - Improve communication with physicians by producing **structured outputs**.  
-- Enable **safe AI-assisted documentation** without transferring diagnostic authority.
+- Enable **safe AI-assisted documentation** without transferring diagnostic authority.  
+
+---
 
 ## Upcoming Prompts
 The first release will include:
@@ -18,23 +22,29 @@ The first release will include:
 - **Kampo (Traditional Medicine) Internal Medicine Referral**  
   - Reasons for referral when red flags are excluded but multiple chronic symptoms, insufficient improvement with standard care, or patient preference for Kampo-based approaches are present.  
 - **Numbness / Paresthesia**  
-  - To help identify when neurological symptoms (e.g., suspected lumbar disc herniation or sciatica) require orthopedic referral even if not emergent.
+  - To help identify when neurological symptoms (e.g., suspected lumbar disc herniation or sciatica) require orthopedic referral even if not emergent.  
+
+---
 
 ## Repository Structure
-- `prompt/` : Prompt templates (low back pain, headache, dizziness, Kampo referral)  
+- `prompt/` : Prompt templates (low back pain, headache, dizziness, numbness, Kampo referral)  
 - `templates/` : CSV data template, consent & disclosure form, minimal referral note  
-- `docs/` : SOP and workflow description  
+- `docs/` : SOP, workflow description, and [Usage Rules](docs/usage_rules.md)  
 - `examples/` : Anonymized outputs (PDF/JSON) for transparency  
 - `LICENSE` : License text  
+
+---
 
 ## Ethics & Governance
 - AI acts as an **information-organizing assistant**, not as a diagnostic system.  
 - Human judgment is always required for referral decisions.  
 - Anonymized data and prompt/output PDFs can be shared via OSF for transparency.  
 
+---
+
 ## Citation
 If you use or adapt this repository, please cite:  
-**OSF project hub:** https://osf.io/tghr6/
+**OSF project hub:** https://osf.io/tghr6/  
 
 ---
 
@@ -49,4 +59,3 @@ Under the following terms:
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.  
 
 Full license text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-
