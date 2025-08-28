@@ -21,7 +21,7 @@ The first release will include:
 - [Headache](https://github.com/KenjiroShiraishi/ai-redflag-checklist/blob/main/prompt/prompt/prompt_headache.md)  
   (red flag checklist: thunderclap, meningitis, tumor, temporal arteritis, etc.)
 
-- [Dizziness](prompt/prompt_dizziness.md)  
+- [Dizziness](https://github.com/KenjiroShiraishi/ai-redflag-checklist/blob/main/prompt/prompt/prompt_dizziness.md)  
   (including anemia/bleeding-related red flags, posterior circulation issues)
 
 - [Numbness / Paresthesia](prompt/prompt_numbness.md)  
