@@ -7,15 +7,18 @@ All final decisions remain with human clinicians.
 ## Objectives
 - Support clinicians and allied health professionals in **organizing findings** related to red flags.  
 - Improve communication with physicians by producing **structured outputs**.  
-- Enable **safe AI-assisted documentation** without transferring diagnostic authority.  
+- Enable **safe AI-assisted documentation** without transferring diagnostic authority.
 
 ## Upcoming Prompts
 The first release will include:
+
 - **Low Back Pain** (12-item checklist, based on guidelines such as MINDS 2021, Chou et al. 2020)  
 - **Headache** (red flag checklist: thunderclap, meningitis, tumor, temporal arteritis, etc.)  
 - **Dizziness** (including anemia/bleeding-related red flags, posterior circulation issues)  
-- **Kampo (Traditional Medicine) Internal Medicine Referral**
-  (Reasons for referral when red flags are excluded but multiple chronic symptoms, insufficient improvement with standard care, or patient preference for Kampo-based approaches are present.  )
+- **Kampo (Traditional Medicine) Internal Medicine Referral**  
+  - Reasons for referral when red flags are excluded but multiple chronic symptoms, insufficient improvement with standard care, or patient preference for Kampo-based approaches are present.  
+- **Numbness / Paresthesia**  
+  - To help identify when neurological symptoms (e.g., suspected lumbar disc herniation or sciatica) require orthopedic referral even if not emergent.
 
 ## Repository Structure
 - `prompt/` : Prompt templates (low back pain, headache, dizziness, Kampo referral)  
