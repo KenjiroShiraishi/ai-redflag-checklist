@@ -27,7 +27,7 @@ The first release will include:
 - [Numbness / Paresthesia](https://github.com/KenjiroShiraishi/ai-redflag-checklist/blob/main/prompt/prompt/prompt_numbness.md)  
   (identify when neurological symptoms require orthopedic or neurology referral)
 
-- [Kampo (Traditional Medicine) Internal Medicine Referral](prompt/prompt_kampo_referral.md)  
+- [Kampo (Traditional Medicine) Internal Medicine Referral](https://github.com/KenjiroShiraishi/ai-redflag-checklist/blob/main/prompt/prompt/prompt_kampo_referral.md)  
   (when red flags are excluded but multiple chronic symptoms, polypharmacy, or patient preference for Kampo-based approaches are present)
 
 ---
