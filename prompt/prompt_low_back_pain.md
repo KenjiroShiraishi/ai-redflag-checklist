@@ -47,10 +47,3 @@
   "clinician_next_steps": "Check neurological function (motor, sensory, reflexes), bladder/bowel status, document red flags, prepare referral note."
 }
 
-## Key Point
-
-This checklist is not diagnostic.
-It structures information to ensure no critical warning sign is overlooked, and supports timely referral.
-
-
----
