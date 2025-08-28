@@ -12,17 +12,23 @@ All final decisions remain with human clinicians.
 - Enable **safe AI-assisted documentation** without transferring diagnostic authority.  
 
 ---
-
 ## Upcoming Prompts
 The first release will include:
 
-- **Low Back Pain** (12-item checklist, based on guidelines such as MINDS 2021, Chou et al. 2020)  
-- **Headache** (red flag checklist: thunderclap, meningitis, tumor, temporal arteritis, etc.)  
-- **Dizziness** (including anemia/bleeding-related red flags, posterior circulation issues)  
-- **Kampo (Traditional Medicine) Internal Medicine Referral**  
-  - Reasons for referral when red flags are excluded but multiple chronic symptoms, insufficient improvement with standard care, or patient preference for Kampo-based approaches are present.  
-- **Numbness / Paresthesia**  
-  - To help identify when neurological symptoms (e.g., suspected lumbar disc herniation or sciatica) require orthopedic referral even if not emergent.  
+- [Low Back Pain](prompt/prompt_low_back_pain.md)  
+  (12-item checklist, based on guidelines such as MINDS 2021, Chou et al. 2020)
+
+- [Headache](prompt/prompt_headache.md)  
+  (red flag checklist: thunderclap, meningitis, tumor, temporal arteritis, etc.)
+
+- [Dizziness](prompt/prompt_dizziness.md)  
+  (including anemia/bleeding-related red flags, posterior circulation issues)
+
+- [Numbness / Paresthesia](prompt/prompt_numbness.md)  
+  (identify when neurological symptoms require orthopedic or neurology referral)
+
+- [Kampo (Traditional Medicine) Internal Medicine Referral](prompt/prompt_kampo_referral.md)  
+  (when red flags are excluded but multiple chronic symptoms, polypharmacy, or patient preference for Kampo-based approaches are present)
 
 ---
 
