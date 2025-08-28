@@ -24,7 +24,7 @@ The first release will include:
 - [Dizziness](https://github.com/KenjiroShiraishi/ai-redflag-checklist/blob/main/prompt/prompt/prompt_dizziness.md)  
   (including anemia/bleeding-related red flags, posterior circulation issues)
 
-- [Numbness / Paresthesia](prompt/prompt_numbness.md)  
+- [Numbness / Paresthesia](https://github.com/KenjiroShiraishi/ai-redflag-checklist/blob/main/prompt/prompt/prompt_numbness.md)  
   (identify when neurological symptoms require orthopedic or neurology referral)
 
 - [Kampo (Traditional Medicine) Internal Medicine Referral](prompt/prompt_kampo_referral.md)  
