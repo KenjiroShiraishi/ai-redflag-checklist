@@ -34,15 +34,44 @@
 
 ## Output Example (JSON Contract)
 
-```json
-{
-  "red_flags_positive": ["Age >55", "Night pain not relieved"],
-  "refer_to": "Orthopedics / Spine specialist",
-  "urgency": "urgent",
-  "reasons": [
-    "Night pain without relief suggests possible tumor or infection",
-    "Age over 55 increases risk of fracture or malignancy"
-  ],
-  "patient_message": "Because some findings raise concern for more serious conditions, we recommend you see an orthopedic specialist soon.",
-  "clinician_next_steps": "Check neurological function (motor, sensory, reflexes), bladder/bowel status, document red flags, prepare referral note."
-}
+# Case Example: Low Back Pain with Red Flags
+
+## Patient Information (Anonymized)
+- Age: 80s, Female
+- Chief Complaint: Severe low back pain (2 days duration)
+- Trauma history: None
+- Past history: Long-term corticosteroid use (prednisone)
+- Systemic symptoms: No fever, no weight loss
+- Neurological symptoms: No motor weakness, no bladder/bowel dysfunction
+- Exam findings: Severe localized spinal tenderness, spontaneous pain
+
+## AI Output (Prompt Summary)
+Red Flags Detected:
+- Age > 55
+- Chronic corticosteroid use
+- Severe localized spinal tenderness
+
+No Red Flags Detected:
+- No trauma history
+- No fever, chills, or systemic illness
+- No neurological deficit
+- No cauda equina symptoms
+
+**Interpretation:** Findings raise concern for vertebral compression fracture.  
+**Recommendation:** Urgent referral to orthopedics for imaging and management.  
+
+**Patient Explanation (AI draft):**  
+"Because of your age, use of steroid medication, and the presence of strong localized spinal pain,  
+we are concerned about a possible fracture in your back bones.  
+It is important to have imaging and see an orthopedic specialist soon."
+
+## Clinician Final Decision
+- Action: Referral to orthopedics (same day).
+- Outcome: Vertebral compression fracture diagnosed. Managed with appropriate medical care.
+- Note: Minimal acupuncture treatment provided prior to referral. Patient was not harmed.
+
+---
+
+## Key Point
+This case demonstrates how AI-assisted red flag checklists can help structure clinical reasoning.  
+The AI did not make a diagnosis but highlighted risk factors, supporting timely referral and safe patient care.
