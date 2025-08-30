@@ -47,7 +47,7 @@
 
 ## AI Output (Prompt Summary)
 Red Flags Detected:
-- Age > 55
+- Age > 55over
 - Chronic corticosteroid use
 - Severe localized spinal tenderness
 
