@@ -81,4 +81,3 @@
   "clinician_next_steps": "耳鼻科に紹介し、神経学的診察や聴力検査を含む精査を依頼。",
   "physician_diagnosis": "耳鼻咽喉科医より「前庭神経炎疑い」と診断された。"
 }
-
