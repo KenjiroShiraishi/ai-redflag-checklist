@@ -50,8 +50,9 @@
 
 ---
 
-## 出力例（JSON）
+### 出力例（JSON）
 
+```json
 {
   "patient_info": {
     "age": "40代",
