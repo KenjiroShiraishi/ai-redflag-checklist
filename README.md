@@ -36,6 +36,9 @@ All final decisions remain with human clinicians.
 - `templates/` : CSV data template, consent & disclosure form, minimal referral note  
 - `docs/` : SOP, workflow description, and [Usage Rules](docs/usage_rules.md)  
 - `examples/` : Anonymized outputs (PDF/JSON) for transparency  
+- `results/` : [Clinical run logs](https://github.com/KenjiroShiraishi/ai-redflag-checklist/tree/main/results) — actual case records with input prompts and AI outputs (PDF/Markdown), anonymized and dated.  
+  - Includes one case that led to a **hospital referral** (hypertension detection).  
+  - Demonstrates real-world use, transparency, and reproducibility.  
 - `LICENSE` : License text  
 
 ---
@@ -44,6 +47,7 @@ All final decisions remain with human clinicians.
 - AI acts as an **information-organizing assistant**, not as a diagnostic system.  
 - Human judgment is always required for referral decisions.  
 - Anonymized data and prompt/output PDFs can be shared via OSF for transparency.  
+- Written informed consent for case publication has been obtained from the patient in the referral case.  
 
 ---
 
@@ -63,4 +67,5 @@ You are free to:
 Under the following terms:  
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.  
 
-Full license text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Full license text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
