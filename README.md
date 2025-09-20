@@ -58,14 +58,17 @@ If you use or adapt this repository, please refer to:
 ---
 
 ## License
-This project is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+This project is released under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License**.
 
-You are free to:  
+You are free to:
+
 - **Share** — copy and redistribute the material in any medium or format  
-- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially  
+- **Adapt** — remix, transform, and build upon the material  
+- **For non-commercial purposes only**
 
-Under the following terms:  
+Under the following terms:
+
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.  
+- **NonCommercial** — You may not use the material for commercial purposes without explicit permission from the author.  
 
-Full license text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-
+Full license text: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
