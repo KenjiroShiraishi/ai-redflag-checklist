@@ -29,6 +29,9 @@ All final decisions remain with human clinicians.
 - [Kampo (Traditional Medicine) Internal Medicine Referral](https://github.com/KenjiroShiraishi/ai-redflag-checklist/blob/main/prompt/prompt/prompt_kampo_referral.md)  
   (for chronic multiple symptoms, polypharmacy, or patient preference when red flags are excluded)
 
+👉 **Prompt Directory (all templates here):**  
+https://github.com/KenjiroShiraishi/ai-redflag-checklist/tree/main/prompt/prompt
+
 ---
 
 ## Repository Structure
@@ -36,7 +39,7 @@ All final decisions remain with human clinicians.
 - `templates/` : CSV data template, consent & disclosure form, minimal referral note  
 - `docs/` : SOP, workflow description, and [Usage Rules](docs/usage_rules.md)  
 - `examples/` : Anonymized outputs (PDF/JSON) for transparency  
-- `results/` : [Clinical run logs](https://github.com/KenjiroShiraishi/ai-redflag-checklist/tree/main/results) — actual case records with input prompts and AI outputs (PDF/Markdown), anonymized and dated.  
+- `result/` : [Clinical run logs](https://github.com/KenjiroShiraishi/ai-redflag-checklist/tree/main/result) — actual case records with input prompts and AI outputs (PDF/Markdown), anonymized and dated.  
   - Includes one case that led to a **hospital referral** (hypertension detection).  
   - Demonstrates real-world use, transparency, and reproducibility.  
 - `LICENSE` : License text  
@@ -56,7 +59,7 @@ All final decisions remain with human clinicians.
 
 ## Reference
 If you use or adapt this repository, please refer to:  
-**OSF project hub:** [https://osf.io/tghr6/](https://osf.io/tghr6/)  
+**OSF project hub:** https://osf.io/tghr6/  
 
 ---
 
@@ -64,14 +67,13 @@ If you use or adapt this repository, please refer to:
 This project is released under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License**.
 
 You are free to:
-
 - **Share** — copy and redistribute the material in any medium or format  
 - **Adapt** — remix, transform, and build upon the material  
 - **For non-commercial purposes only**
 
 Under the following terms:
-
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.  
 - **NonCommercial** — You may not use the material for commercial purposes without explicit permission from the author.  
 
-Full license text: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+Full license text: https://creativecommons.org/licenses/by-nc/4.0/
+
