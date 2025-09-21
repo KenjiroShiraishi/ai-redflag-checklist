@@ -46,8 +46,11 @@ All final decisions remain with human clinicians.
 ## Safety & Responsibility
 - AI acts as an **information-organizing assistant**, not as a diagnostic system.  
 - Human judgment is always required for referral decisions.  
-- Anonymized data and prompt/output PDFs can be shared via OSF for transparency.  
 - Written informed consent for case publication has been obtained from the patient in the referral case.  
+- All other case prompts and outputs have been **fully anonymized**:  
+  - Exact ages were generalized into ranges (e.g., "74 years" → "70s").  
+  - Specific years of surgery or rare details were replaced with masked values (●●●).  
+  - No direct identifiers (names, addresses, contact details) are ever included.  
 
 ---
 
