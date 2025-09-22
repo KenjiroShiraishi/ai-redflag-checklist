@@ -15,7 +15,7 @@ Each file includes both the **input prompt** and the **AI-generated output**, fo
 ## 📂 Contents
 - Case files are **sequentially numbered without dates** (e.g., `case-1.pdf`, `case-2.pdf`).  
 - **Dates and other temporal markers are intentionally omitted** to reduce re-identification risk.  
-- 3 case includes a **hospital referral** (hypertension detection).
+- 3-cases includes a **hospital referral** (hypertension detection).
 
 ---
 
