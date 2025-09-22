@@ -9,7 +9,6 @@ Each file includes both the **input prompt** and the **AI-generated output**, fo
 - All files have been fully anonymized before sharing.  
 - Direct identifiers (names, addresses, contact details) were never included.  
 - Indirect identifiers (exact ages, surgery years, detailed background information) have been generalized or masked with ●●●.  
-- Some cases were published with **written patient consent** (this is indicated in the file header).
 
 ---
 
