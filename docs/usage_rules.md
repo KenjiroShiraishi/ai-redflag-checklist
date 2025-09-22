@@ -1,6 +1,9 @@
 # Usage Rules for AI-Redflag-Checklist
 
-This repository provides **prompt templates** to help clinicians organize clinical information about common symptoms (low back pain, headache, dizziness, numbness, etc.) and identify possible **red flags** or **referral triggers**.
+This repository provides **prompt templates** to help clinicians organize clinical information about common symptoms (low back pain, headache, dizziness, numbness, etc.) and structure their reasoning process through:  
+1. **Red flag detection**  
+2. **Gray zone clarification**  
+3. **Referral information organization**
 
 ⚠️ **Important Disclaimer**  
 - The AI **does not diagnose**.  
@@ -11,45 +14,58 @@ This repository provides **prompt templates** to help clinicians organize clinic
 
 ## Workflow
 
-### Step 1: Red Flag Detection
+### Step 1: Red Flag Check
 - Enter patient information into the relevant checklist prompt.  
-- If **red flags are detected** (e.g., cauda equina, sudden-onset neurological deficits, thunderclap headache), → **immediate referral**.  
-- If **no red flags**, proceed to Step 2.
+- If **red flags are detected** (e.g., cauda equina, sudden-onset neurological deficits, thunderclap headache) → **immediate referral**.  
+- If **no red flags**, proceed to Step 2.  
 
-### Step 2: Referral Triggers
-- Add examination findings or persistent symptoms (e.g., **SLR positive**, **progressive weakness**, **no improvement with therapy**).  
-- The AI will highlight these as **“referral triggers.”**  
-- These are not emergencies, but reasons to advise specialist referral.
+### Step 2: Gray Zone Organization
+- For cases without red flags but with **uncertain findings or borderline concerns**, the AI highlights these as **gray zones**.  
+- Examples:  
+  - Persistent symptoms without clear cause  
+  - Ambiguous neurological findings  
+  - Non-specific systemic complaints  
+- These gray zones are not emergencies, but they help clinicians decide whether close follow-up or further testing is needed.  
 
-### Step 3: Patient Explanation
+### Step 3: Referral Information
+- The AI structures **referral-related notes**, such as:  
+  - Which findings justify referral  
+  - Whether the referral is urgent or non-urgent  
+  - Key points to include in a referral letter  
+- This ensures smoother communication with specialists.  
+
+### Step 4: Patient Explanation
 - The AI can draft a **patient-friendly message** explaining:  
-  - Why referral is recommended  
+  - Why referral or observation is recommended  
   - Why it is not urgent (if no red flags)  
-  - What signs/symptoms require urgent re-evaluation  
-- Example:  
-  *“Your symptoms are not life-threatening, but the positive SLR test suggests a pinched nerve. An orthopedic consultation can confirm this and prevent worsening.”*
+  - What warning signs require immediate re-evaluation  
 
-### Step 4: Documentation
+Example:  
+*“Your current findings are not life-threatening, but ongoing high blood pressure means it is safer to see an internal medicine specialist. Please go soon, and return immediately if chest pain or severe headache occurs.”*  
+
+### Step 5: Documentation
 - Save the input prompt and AI output as a PDF/JSON.  
 - Add to `examples/` for transparency and reproducibility.  
-- Clinician records the **final decision** in the patient’s chart.
+- Clinician records the **final decision** in the patient’s chart.  
 
 ---
 
 ## Example Use Case
-- **Case:** 40-year-old male, leg numbness, SLR positive, no red flags.  
+- **Case:** 60s male, recurrent dizziness, no red flags, but persistent high blood pressure.  
 - **AI Output:**  
   - `red_flags: []`  
-  - `referral_triggers: ["SLR positive suggests possible lumbar disc herniation"]`  
-  - `refer_to: Orthopedics`  
-  - `urgency: non-emergent but timely`  
-  - `patient_message: "Not an emergency, but seeing an orthopedic specialist soon is recommended."`  
-- **Clinician Decision:** Referral to orthopedics, with instructions to return immediately if red flag symptoms develop.
+  - `gray_zone: ["persistent hypertension"]`  
+  - `referral: Internal Medicine`  
+  - `urgency: non-emergent but necessary`  
+  - `patient_message: "Your blood pressure is consistently high. It is not an emergency, but you should see an internal medicine doctor soon."`  
+- **Clinician Decision:** Referral to internal medicine, with instructions to return immediately if neurological red flag symptoms appear.  
 
 ---
 
 ## Key Principles
-- **Red flags first** → safety.  
-- **Referral triggers second** → thoroughness.  
+- **Red flags first** → minimum safety net.  
+- **Gray zones next** → avoid overlooking subtle risks.  
+- **Referral information structured** → clear communication with specialists.  
 - **Patient explanation always included** → transparency and trust.  
-- **Human final decision** → accountability.
+- **Human final decision** → accountability.  
+
