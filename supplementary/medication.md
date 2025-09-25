@@ -1,4 +1,4 @@
-# Medication List (Anonymized)
+# PDF3-Medication List (Anonymized)
 
 | Medication | Dosage & Administration | Prescribing Department |
 |------------|-------------------------|------------------------|
