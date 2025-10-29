@@ -9,15 +9,15 @@ flowchart TD
   B -->|Absent| C[Assess suitability → Perform local intervention (acupuncture / care / training)]
 
   C --> D{Continuation decision and patient preference}
-  D -->|Suspected condition (repeated high BP / DM or thyroid clusters / irregular pulse)| R2a[R2: Planned referral (request for evaluation)]
+  D -->|Suspected condition\n(repeated high BP / DM or thyroid clusters / irregular pulse)| R2a[R2: Planned referral (request for evaluation)]
   D -->|No PCP / No checkup| R2b[R2-CPR: Planned referral to register with PCP]
   D -->|Patient requests physician opinion| R2c[R2-Pref: Preference-based planned referral]
-  D -->|Co-management synergy (Kampo / lifestyle & sleep / cessation / pain & rehab / gynecology / mental health)| R2d[R2-Syn: Planned referral for co-management]
-  D -->|None| R3[R3: Continue local care & set next review date]
+  D -->|Co-management synergy\n(Kampo; lifestyle and sleep; cessation; pain and rehab; gynecology; mental health)| R2d[R2-Syn: Planned referral for co-management]
+  D -->|None| R3[R3: Continue local care and set next review date]
 
   R1 --> E[1-page emergent referral letter / stop intervention / log]
 
-  R2a --> L[1-page referral (evaluation) / education & home monitoring / log]
+  R2a --> L[1-page referral (evaluation) / education and home monitoring / log]
   R2b --> L
   R2c --> L
   R2d --> L
@@ -26,4 +26,3 @@ flowchart TD
   L2 -->|No| L4[Proceed]
 
   R3 --> F[Self-care advice / fix next review date / log]
-::contentReference[oaicite:0]{index=0}
