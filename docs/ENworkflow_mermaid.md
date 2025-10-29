@@ -26,3 +26,4 @@ flowchart TD
   L2 -->|No| L4[Proceed]
 
   R3 --> F[Self-care advice / fix next review date / log]
+::contentReference[oaicite:0]{index=0}
