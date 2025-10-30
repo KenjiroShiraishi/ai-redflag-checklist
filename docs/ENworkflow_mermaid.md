@@ -1,3 +1,4 @@
+
 flowchart TD
 
   A[Arrival and intake] --> B[Red flag check]
