@@ -1,4 +1,5 @@
 flowchart TD
+
   A[Arrival and chief concern intake] --> B[Red-flag check]
   B -->|Present| R1[R1: Immediate referral (same day; ED as needed)]
   B -->|Absent| C[Assess suitability - perform local intervention (acupuncture; care; training)]
