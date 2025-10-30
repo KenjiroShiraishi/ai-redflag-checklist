@@ -4,6 +4,7 @@ The diagram below shows the standard flow from arrival through red-flag screenin
 Assumption: **non-physicians do not diagnose; referrals are framed as “requests for evaluation”** (safety-first design).
 
 ```mermaid
+
 flowchart TD
   A[Arrival & chief concern intake] --> B[Red-flag check]
   B -->|Present| R1[ R1: Immediate referral (same-day; ED as needed) ]
