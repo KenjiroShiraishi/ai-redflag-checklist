@@ -1,38 +1,35 @@
+# ワークフロー（R1/R2/R3）— 鍼灸・介護・トレーナー現場 共通
 
+下図は、来所からレッドフラグ判定、鍼灸等の介入、計画的紹介（R2）、現場対応（R3）までの標準フローです。  
+**非医師は診断せず「評価依頼として紹介」**を行う前提（安全側設計）。
+
+```mermaid
 flowchart TD
+  A[来所・主訴聴取] --> B[レッドフラグチェック]
+  B -->|あり| R1[ R1：即紹介（当日受診・救急含む） ]
+  B -->|なし| C[介入の適否確認 → 介入実施（鍼灸/ケア/トレーニング）]
 
-  A[Arrival and intake] --> B[Red flag check]
+  C --> D{継続ケア判定・患者希望の確認}
+  D -->|疾患の疑い\n（高BP反復/DM・甲状腺クラスター/不整脈 等）| R2a[ R2：計画的紹介（評価依頼） ]
+  D -->|かかりつけ無し/健診未受診| R2b[ R2-CPR：PCP登録の計画的紹介 ]
+  D -->|患者が医師意見を希望| R2c[ R2-Pref：希望起点の計画的紹介 ]
+  D -->|併用シナジー\n（漢方/生活・睡眠/禁煙・減酒/疼痛・リハ/婦人科/メンタル）| R2d[ R2-Syn：共同管理の計画的紹介 ]
+  D -->|該当なし| R3[ R3：現場対応継続・再評価日設定 ]
 
-  B -->|Present| R1[R1 Immediate referral]
-  
-  B -->|Absent| C[Local intervention]
+  %% R1の後処理
+  R1 --> E[緊急用1枚紹介状／介入中止／ログ記録]
 
-  C --> D{Decision and preference}
- 
-  D -->|Suspected condition| R2a[R2 Planned referral]
-
-  D -->|No PCP or no checkup| R2b[R2 Planned referral to PCP]
- 
-  D -->|Patient requests opinion| R2c[R2 Preference based referral]
- 
-  D -->|Co management synergy| R2d[R2 Co management referral]
- 
-  D -->|None| R3[R3 Local care and next review date]
- 
-  R1 --> E[Emergent letter / Stop intervention / Log]
- 
-  R2a --> L[Referral letter / Education and home monitoring / Log]
-  
+  %% R2群の共通アクション
+  R2a --> L[1枚紹介状（評価依頼）／教育・家庭測定／ログ]
   R2b --> L
-  
   R2c --> L
-  
   R2d --> L
-  
-  L --> L2{SDOH modifiers two or more}
- 
-  L2 -->|Yes| L3[Booking support / Dual contact]
-  
-  L2 -->|No| L4[Next step]
- 
-  R3 --> F[Self care advice / Fix next review date / Log]
+  L --> L2{SDOH修飾子≥2?}
+  L2 -->|Yes| L3[予約代行／連絡方法の二重化]
+  L2 -->|No| L4[次工程へ]
+
+  %% R3の後処理
+  R3 --> F[セルフケア指導／次回再評価日を固定／ログ]
+
+  %% ポリシー注記
+  classDef note fill:#f5f5f5,stroke:#bbb,color:#333;
