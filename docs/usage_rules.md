@@ -6,7 +6,9 @@ This repository provides prompt templates to help clinicians organize clinical i
 
 - **Gate 1: Red Flag Detection**
 - **Gate 2: Gray Zone Clarification**
-- **Gate 3: Referral-Ready Note Structuring (plus patient messaging and logging)**
+- **Gate 3: Proceed-with-Care Management + Rapid-Referral Triggers**  
+  *(referral-ready notes, patient-facing message, and logging)*
+
 
 ---
 
