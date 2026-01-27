@@ -41,7 +41,8 @@ Gray zones are **not emergencies**, but they help clinicians decide whether **cl
 
 ---
 
-### Gate 3: Referral Information (Referral-Ready Notes)
+### Gate 3: Proceed-with-Care Management + Rapid-Referral Triggers(referral-ready notes, patient-facing message, and logging)
+
 The AI structures referral-related notes to support clear, efficient communication with specialists, including:
 
 - Which findings justify referral
